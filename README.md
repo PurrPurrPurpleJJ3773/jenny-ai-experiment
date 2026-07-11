@@ -16,7 +16,10 @@ Having simultaneous chats with two models I observed several *striking differenc
     - ignored the part of the prompt from the very beginning;
     - began to add its own lengthy description;
     - failed to retain the context, every iteration was like a new prompt with a new character;
-    - demonstrated a tendency to ignore numerals, negations
+    - failed to process numerals correctly (extra limbs, extra boots, incorrectly pictured "bare foot" partly with a sock on it)
+    - ignored negations ("bare foot" constraint, *no,without* were omitted by the model)
+    - showed poor spatial reasoning (nail visible on the wrong side of the foot) 
+  
 On the whole it took me more than 10 iterations in order to get something more or less 
 
 **Comparison**
