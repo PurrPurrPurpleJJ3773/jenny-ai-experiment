@@ -15,16 +15,24 @@ Having simultaneous chats with two models I observed several *striking differenc
 - Leonardo
     - ignored the part of the prompt from the very beginning;
     - began to add its own lengthy description;
-    - failed to retain the context, every iteration was like a new prompt with a new character;
-    - failed to process numerals correctly (extra limbs, extra boots, incorrectly pictured "bare foot" partly with a sock on it)
-    - ignored negations ("bare foot" constraint, *no,without* were omitted by the model)
-    - showed poor spatial reasoning (nail visible on the wrong side of the foot) 
+    - failed to retain the visual style and context, every iteration was like a new prompt with a new character;
+    - failed to process numerals correctly (extra limbs, extra boots, incorrectly pictured "bare foot" partly with a sock on it);
+    - constantly omitted the "bare foot" constraint, the negations *no,without*;
+    - showed poor spatial reasoning (nail visible on the wrong side of the foot).
   
 On the whole it took me more than 10 iterations to get more or less acceptable output. 
 
 - ChatGPT
-    - jokok
-    - kjk
+    - grasped the core idea and emotional tone immediatly;
+    - preserved the context, the heroine and the style were not subjected to drastic changes;
+    - generated slower but the outputs were more accurate;
+    - required fewer iterations.
+ 
+At the end of my experiment I decided to test what the models could generate if I use the whole nursery rhyme as a prompt.
+
+ChatGPT created a visually and contextually consistent four-scene image based on all the lines of the  nursery rhyme.
+Leonardo remained miraculously unaware creating a young adult girl dressed in a national costume. No boot, no miller, no Jenny.
+
 
 ### Comparison
 Context
