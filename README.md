@@ -1,16 +1,16 @@
 # Jenny-AI-Experiment: Comparing Leonardo and ChatGPT
-**What I did, the main focus** 
+
+### What I did, the main focus
 
 I compared two AI-models, Leonardo and ChatGPT, in the framework of generating an illustrative image for a nursery rhyme.
 
-**Why I did, the aim**
+### Why I did, the aim
 
 I needed an image where a girl with one bare foot is depicted. That picture was supposed to be the accompanying background during my reading on the video.
 
+### Process
 
-**Process**
-
-I made up the same prompts for both of them. I started off with the simpliest prompt which would be enough to grasp the main idea. The first one sounded like "little girl with one bare foot, old English style, cosy vintage". In my following iterations I was adding some details every time in order to help the models pin the context and stick to the verisimilitude as I didn't want the image to be too childish or magical. 
+I made up the same prompts for both of them. I started off with the simpliest prompt which would be enough to grasp the main idea. The initial prompt sounded like "little girl with one bare foot, old English style, cosy vintage". In my following iterations I was adding some details every time in order to help the models pin the context and stick to the verisimilitude as I didn't want the image to be too childish or magical. 
 Having simultaneous chats with two models I observed several *striking differences*:
 - Leonardo
     - ignored the part of the prompt from the very beginning;
@@ -20,15 +20,20 @@ Having simultaneous chats with two models I observed several *striking differenc
     - ignored negations ("bare foot" constraint, *no,without* were omitted by the model)
     - showed poor spatial reasoning (nail visible on the wrong side of the foot) 
   
-On the whole it took me more than 10 iterations in order to get something more or less 
+On the whole it took me more than 10 iterations to get more or less acceptable output. 
 
-**Comparison**
+- ChatGPT
+    - jokok
+    - kjk
+
+### Comparison
 Context
 | Model | Use of Context |
 |:------ | -------: |
 | Leonardo | Poor, |
 
 Leonardo do not use the previous context at all (although the previous prompts are saved and plainly seen)
-**What I learned**
+### What I learned
 ChatGPT grasps the core conception easily. It exposed stronger comprehension of the narrative. Starting a new chat within the framework of one thread the model doesn't directly use memory from the previous conversations but relies on the pattern of recent visible requests.
-**Files**
+
+### Files
