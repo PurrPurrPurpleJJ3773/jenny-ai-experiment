@@ -13,7 +13,11 @@ I needed an image where a girl with one bare foot is depicted. That picture was 
 I made up the same prompts for both of them. I started off with the simpliest prompt which would be enough to grasp the main idea. The first one sounded like "little girl with one bare foot, old English style, cosy vintage". In my following iterations I was adding some details every time in order to help the models pin the context and stick to the verisimilitude as I didn't want the image to be too childish or magical. 
 Having simultaneous chats with two models I observed several *striking differences*:
 - Leonardo
-    - g,rgl;rlg;r
+    - ignored the part of the prompt from the very beginning;
+    - began to add its own lengthy description;
+    - failed to retain the context, every iteration was like a new prompt with a new character;
+    - demonstrated a tendency to ignore numerals, negations
+On the whole it took me more than 10 iterations in order to get something more or less 
 
 **Comparison**
 Context
