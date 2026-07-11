@@ -35,10 +35,10 @@ Leonardo remained miraculously unaware creating a young adult girl dressed in a 
 
 
 ### Comparison
-Context
-| Model | Use of Context |
-|:------ | -------: |
-| Leonardo | Poor, |
+
+| Aspect | Leonardo | ChatGPT |
+|:------ | :-------: | -------: |
+| Visual Consistency | [ x ] Poor | =High |
 
 Leonardo do not use the previous context at all (although the previous prompts are saved and plainly seen)
 ### What I learned
