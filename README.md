@@ -37,11 +37,22 @@ Leonardo remained miraculously unaware creating a young adult girl dressed in a 
 ### Comparison
 
 | Aspect | Leonardo | ChatGPT |
-|:------ | :-------: | -------: |
-| Visual Consistency | [ x ] Poor | =High |
+|:------ | :-------: | :-------: |
+| Visual consistency | Poor | High |
+| Context understanding | Very poor | Very high|
+| Prompt efficiency | Very poor | Very high|
+| Output history | Always visible | Always visible |
+| Constraint Adherence | Very poor | High |
+
+### *Interesting fact*
+
+One of my prompts was "crying little girl with one bare foot, the other foot is in a shoe, old English style, cosy vintage cottage style, whimsical nursery rhyme". The first time I entered this prompt, ChatGPT refused to generate an image because it triggered the guardrail. Then I decided to retest this prompt. After several iterations the same phrase no longer triggered the guardrail, and the image looked almost exactly like the previous one. I infer that 
+
 
 Leonardo do not use the previous context at all (although the previous prompts are saved and plainly seen)
 ### What I learned
 ChatGPT grasps the core conception easily. It exposed stronger comprehension of the narrative. Starting a new chat within the framework of one thread the model doesn't directly use memory from the previous conversations but relies on the pattern of recent visible requests.
 
 ### Files
+
+> The result matters.
