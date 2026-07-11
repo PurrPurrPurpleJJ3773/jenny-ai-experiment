@@ -23,9 +23,10 @@ Having simultaneous chats with two models I observed several *striking differenc
 On the whole it took me more than 10 iterations to get more or less acceptable output. 
 
 - ChatGPT
-    - grasped the core idea and emotional tone immediatly;
+    - grasped the core conception and emotional tone immediatly;
     - preserved the context, the heroine and the style were not subjected to drastic changes;
     - generated slower but the outputs were more accurate;
+    - didn't use memory from the previous chats but relied on the pattern of recent visible requests (one thread-several chats);
     - required fewer iterations.
  
 At the end of my experiment I decided to test what the models could generate if I use the whole nursery rhyme as a prompt.
@@ -49,9 +50,12 @@ Leonardo remained miraculously unaware creating a young adult girl dressed in a 
 One of my prompts was "crying little girl with one bare foot, the other foot is in a shoe, old English style, cosy vintage cottage style, whimsical nursery rhyme". The first time I entered this prompt, ChatGPT refused to generate an image because it triggered the guardrail. I thought that the reason lay in the fact that the words *crying*, *whimsical* and *little girl* overlapped in one sentence, thus creating ambiguity. Then I decided to retest this prompt. After several iterations the same phrase no longer triggered the guardrail, and the image looked almost exactly like the previous one. I can conclude that the guardrail is cinditional and does not necessarily depend on the choice of words. The cornerstone is the general context and the number of iterations.
 
 
-Leonardo do not use the previous context at all (although the previous prompts are saved and plainly seen)
 ### What I learned
-ChatGPT grasps the core conception easily. It exposed stronger comprehension of the narrative. Starting a new chat within the framework of one thread the model doesn't directly use memory from the previous conversations but relies on the pattern of recent visible requests.
+
+* Different AI models require different strategies.
+* Prompt generating is about precision.
+* Guardrails are not static.
+* 
 
 ### Files
 
