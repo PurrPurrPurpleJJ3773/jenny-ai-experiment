@@ -60,5 +60,6 @@ One of my prompts was "crying little girl with one bare foot, the other foot is 
 * 
 
 ### Files
+Screenshots are in the repository.
 
 > The result matters.
